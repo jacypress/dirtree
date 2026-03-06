@@ -86,7 +86,7 @@ if (isset($_GET['action']) && $_GET['action'] === 'getStructure') {
 
         /* Right sidebar (controls + info) */
         .sidebar {
-            padding: 1.5rem 2.5rem;
+            padding: 2rem 2.5rem;
             min-width: 0; 
             width: 100%;
         }
@@ -122,7 +122,7 @@ if (isset($_GET['action']) && $_GET['action'] === 'getStructure') {
             }
             .sidebar {
                 position: sticky;
-                top: 1rem;
+                top: 0;
                 align-self: start;
                 height: fit-content;
             }
@@ -495,4 +495,5 @@ if (isset($_GET['action']) && $_GET['action'] === 'getStructure') {
         document.addEventListener('DOMContentLoaded', () => new FolderStructure());
     </script>
 </body>
+
 </html>
