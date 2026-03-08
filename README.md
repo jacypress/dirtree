@@ -47,7 +47,6 @@ Perfect for:
 - PHP scans the directory (secure, read-only)
 - Returns JSON to the frontend
 - JavaScript renders the ASCII tree
-- One function, ~150 lines of code
 
 ## File Structure
 ```
