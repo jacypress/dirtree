@@ -495,5 +495,4 @@ if (isset($_GET['action']) && $_GET['action'] === 'getStructure') {
         document.addEventListener('DOMContentLoaded', () => new FolderStructure());
     </script>
 </body>
-
 </html>
